@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	 <key>entry</key>
+	 <dict>
+			<key>cell</key>
+				 <string>PSLinkCell</string>
+				 <key>icon</key>
+				 <string>smsgvextension.png</string>
+				 <key>label</key>
+				 <string>SMS GV Extension</string>
+			</dict>
+			<key>items</key>
+			<array>
+				<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>isStaticText</key>
+				<true/>
+				<key>label</key>
+				<string>Google Voice Account</string>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>com.mrzzheng.smsgvextension</string>
+				<key>key</key>
+				<string>username</string>
+				<key>label</key>
+				<string>Username</string>
+				<key>isEmail</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>kCSMSGVSettingsNotification</string>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSSecureEditTextCell</string>
+				<key>defaults</key>
+				<string>com.mrzzheng.smsgvextension</string>
+				<key>key</key>
+				<string>password</string>
+				<key>label</key>
+				<string>Password</string>
+				<key>PostNotification</key>
+				<string>kCSMSGVSettingsNotification</string>
+				</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Send - SMS are sent via GV instead of iPhone's GSM module.</string>
+		</dict>
+				 <dict>
+						<key>cell</key>
+						<string>PSSwitchCell</string>
+						<key>default</key>
+						<true/>
+						<key>defaults</key>
+						<string>com.mrzzheng.smsgvextension</string>
+						<key>key</key>
+						<string>enableSend</string>
+						<key>label</key>
+						<string>Enable Send</string>
+			<key>PostNotification</key>
+			<string>kCSMSGVSettingsNotification</string>
+				 </dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSEditTextCell</string>
+		<key>defaults</key>
+		<string>com.mrzzheng.smsgvextension</string>
+		<key>key</key>
+		<string>sendsig</string>
+		<key>label</key>
+		<string>Signature</string>
+		<key>placeholder</key>
+		<string>Empty for None</string>
+		<key>PostNotification</key>
+		<string>kCSMSGVSettingsNotification</string>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Receive - Messages from GV are notified and processed as SMS.</string>
+		</dict>
+				<dict>
+					 <key>cell</key>
+					 <string>PSLinkCell</string>
+					 <key>label</key>
+					 <string>Receive Settings</string>
+				</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSEditTextCell</string>
+		<key>defaults</key>
+		<string>com.mrzzheng.smsgvextension</string>
+		<key>key</key>
+		<string>recvsig</string>
+		<key>label</key>
+		<string>Signature</string>
+		<key>placeholder</key>
+		<string>Empty for None</string>
+		<key>PostNotification</key>
+		<string>kCSMSGVSettingsNotification</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Advanced</string>
+		</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <false/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.smsgvextension</string>
+						 <key>key</key>
+						 <string>enableLogging</string>
+						 <key>label</key>
+						 <string>Enable Logging</string>
+				<key>PostNotification</key>
+				<string>kCSMSGVSettingsNotification</string>
+					</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Version 1.3.5-1 © 2011 mrzzheng</string>
+		</dict>
+				<dict>
+					 <key>cell</key>
+					 <string>PSSwitchCell</string>
+					 <key>default</key>
+					 <true/>
+					 <key>defaults</key>
+					 <string>com.mrzzheng.smsgvextension</string>
+					 <key>key</key>
+					 <string>promptForLicense</string>
+					 <key>label</key>
+					 <string>Check License</string>
+			<key>PostNotification</key>
+			<string>kCSMSGVLicenseNotification</string>
+				</dict>
+	</array>
+			<key>title</key>
+			<string>SMS GV Extension</string>
+	 </dict>
+</plist>

@@ -1,0 +1,16 @@
+Author: mrzzheng <mrzzheng@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Phone GV Extension
+Package: com.mrzzheng.phonegvextension
+Section: Tweaks
+Depends: preferenceloader, mobilesubstrate, firmware (>= 4.0)
+Version: 1.2-1
+Architecture: iphoneos-arm
+Description: seamlessly integrate GoogleVoice phonecalling
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phonegvextensionData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phonegvextensionData
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mrzzheng
+Installed-Size: 338
+Tag: purpose::extension
+Icon: file:///Applications/GVDialRules.app/Icon.png

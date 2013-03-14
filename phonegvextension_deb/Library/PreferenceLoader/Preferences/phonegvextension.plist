@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	 <key>entry</key>
+	 <dict>
+			<key>cell</key>
+				 <string>PSLinkCell</string>
+				 <key>icon</key>
+				 <string>phonegvextension.png</string>
+				 <key>label</key>
+				 <string>Phone GV Extension</string>
+			</dict>
+			<key>items</key>
+			<array>
+					<dict>
+						 <key>cell</key>
+						 <string>PSEditTextCell</string>
+						 <key>default</key>
+						 <string></string>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>phoneNumber</string>
+						<key>keyboard</key>
+						<string>phone</string>
+						 <key>label</key>
+						 <string>iPhone Number</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>isStaticText</key>
+				<true/>
+				<key>label</key>
+				<string>Google Voice Account</string>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>com.mrzzheng.phonegvextension</string>
+				<key>key</key>
+				<string>username</string>
+				<key>label</key>
+				<string>Username</string>
+				<key>isEmail</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+				<dict>
+				<key>cell</key>
+				<string>PSSecureEditTextCell</string>
+				<key>defaults</key>
+				<string>com.mrzzheng.phonegvextension</string>
+				<key>key</key>
+				<string>password</string>
+				<key>label</key>
+				<string>Password</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Mode for Dialing (overridden by GV Dial Rules app)</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSLinkListCell</string>
+		<key>defaults</key>
+		<string>com.mrzzheng.phonegvextension</string>
+		<key>key</key>
+		<string>mode</string>
+		<key>label</key>
+		<string>Mode</string>
+		<key>detail</key>
+		<string>PSListItemsController</string>
+		<key>validTitles</key>
+		<array>
+			<string>GV Direct Dial</string>
+			<string>GV Call Back</string>
+			<string>GV Offline Dial</string>
+			<string>Carrier</string>
+			<string>Ask Before Dialing</string>
+		</array>
+		<key>validValues</key>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+			<integer>4</integer>
+			<integer>2</integer>
+			<integer>3</integer>
+		</array>
+		<key>default</key>
+		<integer>0</integer>
+		<key>PostNotification</key>
+		<string>kCPhoneGVSettingsNotification</string>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Customize 'Ask Before Dialing' Menu Items</string>
+		</dict>
+				<dict>
+					 <key>cell</key>
+					 <string>PSLinkCell</string>
+					 <key>label</key>
+					 <string>Customize Menu</string>
+				</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>GV Offline Dial Settings</string>
+		</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSEditTextCell</string>
+						 <key>default</key>
+						 <string></string>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>offlineGVNumber</string>
+						<key>keyboard</key>
+						<string>phone</string>
+						 <key>label</key>
+						 <string>GV Number</string>
+						 <key>placeholder</key>
+						 <string>Empty to Auto Detect</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+							<dict>
+						 <key>cell</key>
+						 <string>PSEditTextCell</string>
+						 <key>default</key>
+						 <string></string>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>offlinePinCode</string>
+						<key>keyboard</key>
+						<string>numbers</string>
+						 <key>label</key>
+						 <string>Pin Code</string>
+						 <key>placeholder</key>
+						 <string>4-digit code</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Show Real recipient ID v.s. GV # when calling and in Call History</string>
+		</dict>
+			<dict>
+				 <key>cell</key>
+				 <string>PSSwitchCell</string>
+				 <key>default</key>
+				 <true/>
+				 <key>defaults</key>
+				 <string>com.mrzzheng.phonegvextension</string>
+				 <key>key</key>
+				 <string>showRealID</string>
+				 <key>label</key>
+				 <string>Show Real ID</string>
+		<key>PostNotification</key>
+		<string>kCPhoneGVSettingsNotification</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Advanced</string>
+		</dict>
+				<dict>
+					 <key>cell</key>
+					 <string>PSSwitchCell</string>
+					 <key>default</key>
+					 <true/>
+					 <key>defaults</key>
+					 <string>com.mrzzheng.phonegvextension</string>
+					 <key>key</key>
+					 <string>refreshCallingCache</string>
+					 <key>label</key>
+					 <string>Refresh Cache</string>
+			<key>PostNotification</key>
+			<string>kCPhoneGVRefreshCallingCacheNotification</string>
+				</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <false/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>enableLogging</string>
+						 <key>label</key>
+						 <string>Enable Logging</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+					</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>isStaticText</key>
+		<true/>
+		<key>label</key>
+		<string>Version 1.2-1 © 2011 mrzzheng</string>
+		</dict>
+				<dict>
+					 <key>cell</key>
+					 <string>PSSwitchCell</string>
+					 <key>default</key>
+					 <true/>
+					 <key>defaults</key>
+					 <string>com.mrzzheng.phonegvextension</string>
+					 <key>key</key>
+					 <string>promptForLicense</string>
+					 <key>label</key>
+					 <string>Check License</string>
+			<key>PostNotification</key>
+			<string>kCPhoneGVLicenseNotification</string>
+				</dict>
+	</array>
+			<key>title</key>
+			<string>Phone GV Extension</string>
+	 </dict>
+</plist>

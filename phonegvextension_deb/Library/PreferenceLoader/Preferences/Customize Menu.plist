@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+			<key>items</key>
+			<array>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <true/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>custom_gvdd</string>
+						 <key>label</key>
+						 <string>GV Direct Dial</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <true/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>custom_gvcb</string>
+						 <key>label</key>
+						 <string>GV Call Back</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <true/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>custom_gvod</string>
+						 <key>label</key>
+						 <string>GV Offline Dial</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <true/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>custom_carrier</string>
+						 <key>label</key>
+						 <string>Carrier</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+					<dict>
+						 <key>cell</key>
+						 <string>PSSwitchCell</string>
+						 <key>default</key>
+						 <true/>
+						 <key>defaults</key>
+						 <string>com.mrzzheng.phonegvextension</string>
+						 <key>key</key>
+						 <string>custom_cancel</string>
+						 <key>label</key>
+						 <string>Cancel Button</string>
+				<key>PostNotification</key>
+				<string>kCPhoneGVSettingsNotification</string>
+				</dict>
+
+	</array>
+			<key>title</key>
+			<string>Customize Menu</string>
+	 </dict>
+</plist>

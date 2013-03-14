@@ -1,0 +1,16 @@
+Author: mrzzheng <mrzzheng@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: SMS GV Extension
+Package: com.mrzzheng.smsgvextension
+Section: Messaging
+Depends: preferenceloader, mobilesubstrate, firmware (>= 4.0)
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Description: seamlessly integrate GoogleVoice messaging
+	Seamlessly integrates Google Voice messaging service with iPhone's SMS module. SMS are automatically sent via Google Voice account instead of iPhone's GSM module;  new incoming GV messages are notified and processed as system's SMS. Enjoy a true free unlimited SMS messaging experience with your favorite SMS app, including the built-in MobileSMS
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smsgvextensionData
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smsgvextensionData
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mrzzheng
+Installed-Size: 222
+Tag: purpose::extension
