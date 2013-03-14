@@ -1,4 +1,3 @@
-
 GV Extensions for iOS
 
 * phonegvextension
@@ -6,6 +5,8 @@ GV Extensions for iOS
 * smsgvextension
 * smsgvextensionmail
 * GVDialRules
+
+See Wiki pages for documentation.
 
 Copyright © 2013, Zhi Zheng (mrzzheng@gmail.com). All rights reserved.
 
