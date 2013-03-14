@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* GVDialRulesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 525}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 477}";
+		};
+	};
+	1D3623250D0F684500981E51 /* GVDialRulesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1196}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRange = "{0, 1135}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GVDialRules */ = {
+		activeExec = 0;
+		executables = (
+			5E04752312A0511C00DE233F /* GVDialRules */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 547}}";
+			sepNavSelRange = "{261, 0}";
+			sepNavVisRange = "{0, 459}";
+			sepNavWindowFrame = "{{177, 4}, {803, 774}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7431, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7482, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7532, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8788}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3900}}";
+			sepNavSelRange = "{4673, 0}";
+			sepNavVisRange = "{4447, 1160}";
+			sepNavWindowFrame = "{{15, 4}, {803, 774}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 5E04752312A0511C00DE233F /* GVDialRules */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GVDialRules */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GVDialRules */,
+		);
+		codeSenseManager = 5E04753712A0512F00DE233F /* Code sense */;
+		executables = (
+			5E04752312A0511C00DE233F /* GVDialRules */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323655764;
+			PBXWorkspaceStateSaveDate = 323655764;
+		};
+		perUserProjectItems = {
+			5E04773012A081E900DE233F /* PBXTextBookmark */ = 5E04773012A081E900DE233F /* PBXTextBookmark */;
+			5E04773112A081E900DE233F /* PBXTextBookmark */ = 5E04773112A081E900DE233F /* PBXTextBookmark */;
+			5E04775712A0C5CE00DE233F /* PlistBookmark */ = 5E04775712A0C5CE00DE233F /* PlistBookmark */;
+			5E41762C12B7631200619D81 /* PBXTextBookmark */ = 5E41762C12B7631200619D81 /* PBXTextBookmark */;
+			5E41763312B763B500619D81 /* PBXTextBookmark */ = 5E41763312B763B500619D81 /* PBXTextBookmark */;
+			5E41763412B763B500619D81 /* PBXTextBookmark */ = 5E41763412B763B500619D81 /* PBXTextBookmark */;
+			5E92DD2B134A7E6A00E00213 /* PBXTextBookmark */ = 5E92DD2B134A7E6A00E00213 /* PBXTextBookmark */;
+			5ECF5EA3134A98A200087D02 /* PBXTextBookmark */ = 5ECF5EA3134A98A200087D02 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5E04753612A0512F00DE233F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5E04752312A0511C00DE233F /* GVDialRules */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GVDialRules;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5E04753612A0512F00DE233F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5E04753712A0512F00DE233F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5E0475E612A061EC00DE233F /* DialRuleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 547}}";
+			sepNavSelRange = "{428, 0}";
+			sepNavVisRange = "{0, 845}";
+			sepNavWindowFrame = "{{15, 4}, {803, 774}}";
+		};
+	};
+	5E0475E712A061EC00DE233F /* DialRuleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 2912}}";
+			sepNavSelRange = "{746, 0}";
+			sepNavVisRange = "{0, 701}";
+			sepNavWindowFrame = "{{15, 4}, {803, 774}}";
+		};
+	};
+	5E04773012A081E900DE233F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GVDialRulesAppDelegate.m */;
+		name = "GVDialRulesAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 0;
+	};
+	5E04773112A081E900DE233F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GVDialRulesAppDelegate.h */;
+		name = "GVDialRulesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 0;
+	};
+	5E04775712A0C5CE00DE233F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GVDialRules-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/zhizheng/Desktop/GVDialRules/GVDialRules-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	5E41762C12B7631200619D81 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E0475E612A061EC00DE233F /* DialRuleViewController.h */;
+		name = "DialRuleViewController.h: 18";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 0;
+	};
+	5E41763312B763B500619D81 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E0475E712A061EC00DE233F /* DialRuleViewController.m */;
+		name = "DialRuleViewController.m: 45";
+		rLen = 0;
+		rLoc = 746;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	5E41763412B763B500619D81 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 12";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	5E92DD2B134A7E6A00E00213 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 159";
+		rLen = 0;
+		rLoc = 4673;
+		rType = 0;
+		vrLen = 1197;
+		vrLoc = 4447;
+	};
+	5ECF5EA3134A98A200087D02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 159";
+		rLen = 0;
+		rLoc = 4673;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 4447;
+	};
+	8D1107310486CEB800E47090 /* GVDialRules-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {803, 774}}";
+		};
+	};
+}
